@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { assets } from '../../assets/assets'
+// import { FaShoppingCart } from "react-icons/fa";
+// import { IoSearch } from "react-icons/io5";
 
 const Navbar = () => {
 
@@ -17,8 +19,10 @@ const Navbar = () => {
      </ul>
      <div className="navbar-right">
       <img src={assets.search_icon} alt="" />
+      {/* <IoSearch size={30}/> */}
       <div className="navbar-search-icon">
         <img src={assets.basket_icon} alt="" />
+        {/* <FaShoppingCart size={30}/> */}
         <div className="dot"></div>
       </div>
       <button>sign in</button>
